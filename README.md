@@ -13,10 +13,10 @@ The repo includes the following files:
 
 Notice:
 =========================================
--When you load feature.txt file, please make sure using correct working directory (./UCI HAR Dataset/) with features.txt in it
+-When you load feature.txt file, please make sure using correct working directory (./UCI HAR Dataset/) with features.txt
 
--When you load training data files, please make sure using correct working directory (./UCI HAR Dataset/train/) with "X_train.txt", "y_train.txt", and "subject_train.txt" in it
+-When you load training data files, please make sure using correct working directory (./UCI HAR Dataset/train/) with "X_train.txt", "y_train.txt", and "subject_train.txt"
 
--When you load test data files, please make sure using correct working directory (./UCI HAR Dataset/test/) with "X_test.txt", "y_test.txt", and "subject_test.txt" in it
+-When you load test data files, please make sure using correct working directory (./UCI HAR Dataset/test/) with "X_test.txt", "y_test.txt", and "subject_test.txt"
 
 

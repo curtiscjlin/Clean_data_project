@@ -1,12 +1,15 @@
 #Load feature.txt in /UCI HAR Dataset/ folder for column names
+#Make sure using correct working directory (./UCI HAR Dataset/) with features.txt in it
 feature <- read.table("./UCI HAR Dataset/features.txt", sep = "", stringsAsFactors = FALSE)
 
 #Load training data from /UCI HAR Dataset/train/ folder
+#Make sure using correct working directory (./UCI HAR Dataset/train/) with "X_train.txt", "y_train.txt", and "subject_train.txt" in it
 x_train <- read.table("./UCI HAR Dataset/train/X_train.txt", sep = "", stringsAsFactors = FALSE)
 y_train <- read.table("./UCI HAR Dataset/train/y_train.txt", sep = "", stringsAsFactors = FALSE)
 sub_train <- read.table("./UCI HAR Dataset/train/subject_train.txt", sep = "", stringsAsFactors = FALSE)
 
 #Load testing data from UCI HAR Dataset/test/ folder
+#Make sure using correct working directory (./UCI HAR Dataset/test/) with "X_test.txt", "y_test.txt", and "subject_test.txt" in it
 x_test <- read.table("./UCI HAR Dataset/test/X_test.txt", sep = "", stringsAsFactors = FALSE)
 y_test <- read.table("./UCI HAR Dataset/test/y_test.txt", sep = "", stringsAsFactors = FALSE)
 sub_test <- read.table("./UCI HAR Dataset/test/subject_test.txt", sep = "", stringsAsFactors = FALSE)
